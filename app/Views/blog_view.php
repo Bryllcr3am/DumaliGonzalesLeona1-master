@@ -37,7 +37,8 @@
             <!-- small box -->
             <div class="small-box bg-info">
               <div class="inner">
-                <h3>150</h3>
+              <h3 id="Report and Statistics">150</h3>
+             
 
                 <p>Report and Statistics</p>
               </div>
@@ -52,7 +53,7 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>53<sup style="font-size: 20px">%</sup></h3>
+                <h3 id="Residents">53</h3>
 
                 <p>Residents</p>
               </div>
@@ -67,7 +68,7 @@
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
-                <h3>44</h3>
+                <h3 id="User Registered">44</h3>
 
                 <p>User Registered</p>
               </div>
@@ -82,7 +83,7 @@
             <!-- small box -->
             <div class="small-box bg-danger">
               <div class="inner">
-                <h3>65</h3>
+                <h3 id="Barangay Officials">65</h3>
 
                 <p>Barangay Officials</p>
               </div>

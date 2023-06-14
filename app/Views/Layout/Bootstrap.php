@@ -6,3 +6,5 @@
 <script src="<?php base_url()?>assets/AdminLTE-3.2.0/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
 <script src="<?php base_url()?>assets/AdminLTE-3.2.0/dist/js/adminlte.js"></script>
+<!-- JS -->
+<script src="<?= base_url(); ?>assets/JS/Information.js "> </script>
