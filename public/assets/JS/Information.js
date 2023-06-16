@@ -17,21 +17,21 @@ function resolveAfter2Seconds(){
 function resolveAfter3Seconds(){
     return new Promise(resolve => {
         setTimeout(() => {
-            resolve('Resolved after 2 seconds');
+            resolve('Resolved after 3 seconds');
         }, 3000);
     });
 }
 function resolveAfter4Seconds(){
     return new Promise(resolve => {
         setTimeout(() => {
-            resolve('Resolved after 2 seconds');
+            resolve('Resolved after 4 seconds');
         }, 4000);
     });
 }
 function resolveAfter5Seconds(){
     return new Promise(resolve => {
         setTimeout(() => {
-            resolve('Resolved after 2 seconds');
+            resolve('Resolved after 5 seconds');
         }, 5000);
     });
 }
@@ -104,26 +104,26 @@ async function getValueofReportandStatistics() {
         }
       }
         //Barangay Officials
-    async function getValueofBarangayOfficials() {
-        try {
-          const response = await fetch('http://localhost:8080/blog');
-          const html = await response.text();
-      
-          // Parse the HTML string
-          const parser = new DOMParser();
-          const doc = parser.parseFromString(html, 'text/html');
-      
-          // Find the <h3> element and extract its value
-          const element = doc.getElementById('Barangay Officials');
-          const value = element.textContent;
-          
-          console.log('Retrieving Barangay Officials');
-          const result = await resolveAfter5Seconds();
-          console.log("Barangay Officials: " + value); 
-          return value;
-        } catch (error) {
-          console.error(error);
+        async function getValueofBarangayOfficials() {
+          try {
+            const response = await fetch('http://localhost:8080/blog');
+            const html = await response.text();
+        
+            // Parse the HTML string
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+        
+            // Find the <h3> element and extract its value
+            const element = doc.getElementById('Barangay Officials');
+            const value = element.textContent;
+            
+            console.log('Retrieving Barangay Officials');
+            const result = await resolveAfter5Seconds();
+            console.log("Barangay Officials: " + value); 
+            return value;
+          } catch (error) {
+            console.error(error);
+          }
         }
-      }
   
   window.onload =  getDashboardData();
