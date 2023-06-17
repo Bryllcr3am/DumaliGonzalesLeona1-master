@@ -1,0 +1,8 @@
+CRITICAL - 2023-06-17 10:37:27 --> Undefined variable $user_count
+in APPPATH\Controllers\blog.php on line 25.
+ 1 APPPATH\Controllers\blog.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_count', 'C:\\xampp\\htdocs\\DumaliGonzalesLeona1-master\\app\\Controllers\\blog.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\blog->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\blog))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\DumaliGonzalesLeona1-master\\public\\index.php')

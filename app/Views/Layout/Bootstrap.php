@@ -8,3 +8,4 @@
 <script src="<?php base_url()?>assets/AdminLTE-3.2.0/dist/js/adminlte.js"></script>
 <!-- JS -->
 <script src="<?= base_url(); ?>assets/JS/Information.js "> </script>
+<script src="<?= base_url(); ?>assets/JS/Home.js "> </script>

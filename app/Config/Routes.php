@@ -42,6 +42,8 @@ $routes->set404Override();
     
     $routes->get('compute/(:alpha)/(:num)/(:num)','RoutesGetActivity::compute/$1/$2/$3');
 
+    $routes->get('getvalues','blog::getValues');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
