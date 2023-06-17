@@ -10,8 +10,9 @@ class RoleSeeder extends Seeder
     {
         //create values
         $data = [
-                    ['role_name'=>'admin','role_description'=>'Administrator'],
-                    ['role_name'=>'user','role_description'=>'User']
+                    ['role_name'=>'admin','role_description'=>'Administrator','role_status'=>'1'],
+                    ['role_name'=>'user','role_description'=>'User','role_status'=>'0' ]
+
         ];
 
         // Simple Queries

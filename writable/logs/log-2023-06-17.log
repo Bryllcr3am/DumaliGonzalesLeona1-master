@@ -79,3 +79,47 @@ Stack trace:
 #9 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
 #10 C:\xampp\htdocs\DumaliGonzalesLeona1-master\spark(97): CodeIgniter\CLI\Console->run()
 #11 {main}
+ERROR - 2023-06-17 12:31:01 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', NULL, false)
+#4 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xampp\htdocs\DumaliGonzalesLeona1-master\app\Database\Seeds\RoleSeeder.php(19): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\Seeder.php(146): App\Database\Seeds\RoleSeeder->run()
+#7 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\xampp\htdocs\DumaliGonzalesLeona1-master\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-17 12:31:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`status`, `role_description`, `role_name`)
+VALUES ('1','Administrator','admin...' at line 1 in C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', NULL, false)
+#4 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xampp\htdocs\DumaliGonzalesLeona1-master\app\Database\Seeds\RoleSeeder.php(19): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\Seeder.php(146): App\Database\Seeds\RoleSeeder->run()
+#7 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\xampp\htdocs\DumaliGonzalesLeona1-master\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-17 12:32:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`status`, `role_description`, `role_name`)
+VALUES ('1','Administrator','admin...' at line 1 in C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', NULL, false)
+#4 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xampp\htdocs\DumaliGonzalesLeona1-master\app\Database\Seeds\RoleSeeder.php(19): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Database\Seeder.php(146): App\Database\Seeds\RoleSeeder->run()
+#7 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\xampp\htdocs\DumaliGonzalesLeona1-master\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\xampp\htdocs\DumaliGonzalesLeona1-master\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
