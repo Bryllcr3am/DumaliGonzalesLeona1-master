@@ -47,7 +47,7 @@ async function getValueofReportandStatistics() {
       const doc = parser.parseFromString(html, 'text/html');
   
       // Find the <h3> element and extract its value
-      const element = doc.getElementById('Report and Statistics');
+      const element = doc.getElementById('new_orders');
       const value = element.textContent;
       
       console.log('Retrieving Report and Statistics');
@@ -70,7 +70,7 @@ async function getValueofReportandStatistics() {
       const doc = parser.parseFromString(html, 'text/html');
   
       // Find the <h3> element and extract its value
-      const element = doc.getElementById('Residents');
+      const element = doc.getElementById('bounce_rate');
       const value = element.textContent;
       
       console.log('Retrieving Residents');
@@ -92,7 +92,7 @@ async function getValueofReportandStatistics() {
           const doc = parser.parseFromString(html, 'text/html');
       
           // Find the <h3> element and extract its value
-          const element = doc.getElementById('User Registered');
+          const element = doc.getElementById('user_count');
           const value = element.textContent;
           
           console.log('Retrieving User Registered');
@@ -114,7 +114,7 @@ async function getValueofReportandStatistics() {
             const doc = parser.parseFromString(html, 'text/html');
         
             // Find the <h3> element and extract its value
-            const element = doc.getElementById('Barangay Officials');
+            const element = doc.getElementById('unique_visitors');
             const value = element.textContent;
             
             console.log('Retrieving Barangay Officials');

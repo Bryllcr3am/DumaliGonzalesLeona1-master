@@ -37,10 +37,10 @@
             <!-- small box -->
             <div class="small-box bg-info">
               <div class="inner">
-              <h3 id="Report and Statistics">150</h3>
+              <h3 id="new_orders">0</h3>
              
 
-                <p>Report and Statistics</p>
+                <p>New orders</p>
               </div>
               <div class="icon">
               <i class="ion ion-stats-bars"></i>
@@ -53,9 +53,9 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3 id="Residents">53</h3>
+                <h3 id="bounce_rate">0</h3>
 
-                <p>Residents</p>
+                <p>Bounce Rate</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
@@ -68,7 +68,7 @@
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
-                <h3 id="User Registered">44</h3>
+                <h3 id="user_count">0</h3>
 
                 <p>User Registered</p>
               </div>
@@ -83,9 +83,9 @@
             <!-- small box -->
             <div class="small-box bg-danger">
               <div class="inner">
-                <h3 id="Barangay Officials">65</h3>
+                <h3 id="unique_visitors">0</h3>
 
-                <p>Barangay Officials</p>
+                <p>Unique Visitors</p>
               </div>
               <div class="icon">
                 <i class="ion ion-pie-graph"></i>
